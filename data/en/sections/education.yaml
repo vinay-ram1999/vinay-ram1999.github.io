@@ -2,7 +2,7 @@
 section:
   name: Education
   id: education
-  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  template: sections/education-alt.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 4
   showOnNavbar: true
@@ -41,7 +41,7 @@ degrees:
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
-    collapseAfter: 3
+    collapseAfter: 4
     courses:
     - name: Introduction to Computer Science and Programming
       achieved: 9
@@ -64,7 +64,7 @@ degrees:
   #- title: Fusce eu augue ut odio porttitor pulvinar.
     #url: "#"
   extracurricularActivities: #(optional)
-  - Participated in the 2 days National Level Workshop cum Championship on “WiFi-Controlled Robotics” organized by Revert Technology Pvt. Ltd. & EDC, IIT Roorkee.
+  - Participated in a 2 days National Level Workshop cum Championship on “WiFi-Controlled Robotics” organized by Revert Technology Pvt. Ltd. & EDC, IIT Roorkee.
   - Organized University TechFest and sports events.
   - Participated in Single's Table Tennis tournament in SportsFest and reached Semi-Finals.
 
@@ -89,6 +89,7 @@ degrees:
   timeframe: 2014-2015
   institution:
     name: Sri Chaitanya Techno School
+    url: "https://srichaitanyaschool.net"
   grade: #(optional)
     scale: CGPA
     achieved: 9.4
