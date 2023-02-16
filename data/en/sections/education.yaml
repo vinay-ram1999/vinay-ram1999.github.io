@@ -41,7 +41,7 @@ degrees:
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
-    collapseAfter: 4
+    collapseAfter: 3
     courses:
     - name: Introduction to Computer Science and Programming
       achieved: 9
