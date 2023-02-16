@@ -10,81 +10,83 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+#- name: Ph.D in Quantum Cryptography
+  #icon: fa-microscope
+  #timeframe: 2016-2020
+  #institution:
+    #name: ABC University of Technology
+    #url: "#"
+  #grade: #(optional)
+    #scale: CGPA
+    #achieved: 3.6
+    #outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+    #url: "#"
+  #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
+    #url: "#"
+
+- name: Bachelor of Technology in Mechanical Engineering
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2017-2021
   institution:
-    name: University of XYZ
-    url: "#"
+    name: SRM University AP
+    url: "https://srmap.edu.in"
   grade: #(optional)
     scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    achieved: 8.51
+    outOf: 10
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+    - name: Introduction to Computer Science and Programming
+      achieved: 9
+      outOf: 10
+    - name: Probability and Statistics for Engineers
+      achieved: 7
+      outOf: 10
+    - name: Computational Fluid Dynamics
+      achieved: 9
+      outOf: 10
+    #- name: Artificial Intelligent
+      #achieved: 3.75
+      #outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+    #url: "#"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+  - Participated in the 2 days National Level Workshop cum Championship on “WiFi-Controlled Robotics” organized by Revert Technology Pvt. Ltd. & EDC, IIT Roorkee.
+  - Organized University TechFest and sports events.
+  - Participated in Single's Table Tennis tournament in SportsFest and reached Semi-Finals.
+
+- name: Board of Intermediate Education Andhra Pradesh, BIEAP
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2015-2017
   institution:
-    name: MST College of Science
-    url: "#"
+    name: Narayana Junior College
+    url: "https://www.narayanajuniorcolleges.com"
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+    scale: Percentage
+    achieved: 95.1
+    outOf: 100
+  #extracurricularActivities: #(optional)
+  #- In vitae facilisis est, eget porta sem.
+  #- Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  #- Duis sed massa feugiat, ornare justo et, aliquam est.
+  #- Pellentesque ut fringilla magna.
+
+- name: Central Board of Secondary Education, CBSE
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2014-2015
   institution:
-    name: JK School of Science
+    name: Sri Chaitanya Techno School
   grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: CGPA
+    achieved: 9.4
+    outOf: 10
