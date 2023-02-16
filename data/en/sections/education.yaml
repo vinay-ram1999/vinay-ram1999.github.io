@@ -52,9 +52,12 @@ degrees:
     - name: Computational Fluid Dynamics
       achieved: 9
       outOf: 10
-    #- name: Artificial Intelligent
-      #achieved: 3.75
-      #outOf: 4
+    - name: Manufacturing Science
+      achieved: 9
+      outOf: 10
+    - name: Multi Variable Calculus
+      achieved: 9
+      outOf: 10
   #publications: #(optional)
   #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #url: "#"
