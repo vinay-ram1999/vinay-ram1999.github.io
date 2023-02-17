@@ -16,6 +16,13 @@ skills:
   summary: "Solidworks"
   url: "https://www.solidworks.com/"
 
+- name: CATIA
+  logo: /images/sections/skills/CATIA.png
+  summary: "CATIA"
+  url: "#"
+
+
+skills:
 - name: Spreadsheets
   logo: /images/sections/skills/excel.svg
   summary: "Excel"
