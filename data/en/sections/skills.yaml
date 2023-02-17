@@ -11,10 +11,10 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Solidworks
-  logo: /images/sections/skills/solidworks.png
-  summary: "Solidworks"
-  url: "https://www.solidworks.com/"
+#- name: Solidworks
+  #logo: /images/sections/skills/solidworks.png
+  #summary: "Solidworks"
+  #url: "https://www.solidworks.com/"
 
 - name: Spreadsheets
   logo: /images/sections/skills/excel.png
