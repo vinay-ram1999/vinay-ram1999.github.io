@@ -17,7 +17,7 @@ skills:
   url: "https://www.solidworks.com/"
 
 - name: Spreadsheets
-  logo: /images/sections/skills/excel.png
+  logo: /images/sections/skills/excel.svg
   summary: "Excel"
   url: "#"
 
