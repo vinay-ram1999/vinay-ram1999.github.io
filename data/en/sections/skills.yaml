@@ -64,12 +64,12 @@ skills:
 
 section:
   name: Design Skills
-  id: skills_2
+  id: skills
   enable: true
   weight: 3
   showOnNavbar: true
 
-skills_2:
+skills:
 - name: Solidworks
   logo: /images/sections/skills/solidworks.svg
   summary: "Have experience in designing 3D CAD models and Assembly. Generated STL models for rapid prototyping using 3D printing."
