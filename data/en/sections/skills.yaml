@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Programming Skills
   id: skills
   enable: true
   weight: 2
@@ -11,15 +11,6 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-#- name: Cloud Computing
-  #logo: /images/sections/skills/cloud.png
-  #summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-
-- name: Matlab
-  logo: /images/sections/skills/matlab.png
-  summary: "Know bacis Matlab programming. Completed and online course on 'Introduction to Programming with MATLAB' in coursera."
-  url: "https://www.mathworks.com/products/matlab.html"
-
 - name: Python
   logo: /images/sections/skills/python.png
   summary: "Used Python as the main programming language for development in various projects. Capable of implementing Object Oriented programming."
@@ -32,24 +23,60 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use GitHub. Also, have experience in working with GitHub Pages and developing webpages."
+  summary: "Experienced with git-based development. Mostly, use GitHub. Also, have experience in working with GitHub Pages and deploying webpages."
   url: "https://git-scm.com/"
+
+- name: Spreadsheets
+  logo: /images/sections/skills/excel.svg
+  summary: ""
+  url: "#"
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.svg
+  summary: ""
+  url: "https://www.mysql.com/"
+
+- name: R
+  logo: /images/sections/skills/r.svg
+  summary: ""
+  url: "https://www.r-project.org/"
+
+- name: Tableau
+  logo: /images/sections/skills/tableau.svg
+  summary: ""
+  url: "https://www.tableau.com/"
+
+- name: LaTeX
+  logo: /images/sections/skills/latex.png
+  summary: ""
+  url: "https://www.latex-project.org/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  url: "#"
 
+- name: Matlab
+  logo: /images/sections/skills/matlab.png
+  summary: "Know basic Matlab programming. Completed an online course on ``Introduction to Programming with MATLAB'' in coursera."
+  url: "https://www.mathworks.com/products/matlab.html"
+
+
+section:
+  name: Design Skills
+  id: skills_2
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+skills_2:
 - name: Solidworks
   logo: /images/sections/skills/solidworks.svg
   summary: "Have experience in designing 3D CAD models and Assembly. Generated STL models for rapid prototyping using 3D printing."
   url: "https://www.solidworks.com/"
 
-- name: Spreadsheets
-  logo: /images/sections/skills/excel.svg
+#- name: Cloud Computing
+  #logo: /images/sections/skills/cloud.png
+  #summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
 
-- name: LaTeX
-  logo: /images/sections/skills/latex.png
-
-- name: Tableau
-  logo: /images/sections/skills/tableau.svg
 
