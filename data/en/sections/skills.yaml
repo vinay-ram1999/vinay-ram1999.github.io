@@ -11,10 +11,10 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-#- name: Solidworks
-  #logo: /images/sections/skills/solidworks.png
-  #summary: "Solidworks"
-  #url: "https://www.solidworks.com/"
+- name: Solidworks
+  logo: /images/sections/skills/solidworks.svg
+  summary: "Solidworks"
+  url: "https://www.solidworks.com/"
 
 - name: Spreadsheets
   logo: /images/sections/skills/excel.png
@@ -31,7 +31,7 @@ skills:
   url: "https://www.mathworks.com/products/matlab.html"
 
 - name: Python
-  logo: /images/sections/skills/python.png
+  logo: /images/sections/skills/python.svg
   summary: "Python"
   url: "https://www.python.org/"
 
