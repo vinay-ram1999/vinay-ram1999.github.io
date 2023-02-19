@@ -44,7 +44,7 @@ skills:
 - name: Spreadsheets
   logo: /images/sections/skills/excel.svg
   summary: ""
-  url: "#"
+  #url: "#"
 
 - name: LaTeX
   logo: /images/sections/skills/latex.png
@@ -54,7 +54,7 @@ skills:
 - name: C++
   logo: /images/sections/skills/c++.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  url: "#"
+  #url: "#"
 
 #- name: Matlab
   #logo: /images/sections/skills/matlab.png
