@@ -38,7 +38,7 @@ skills:
 
 - name: Tableau
   logo: /images/sections/skills/tableau.svg
-  summary: "Capable of creating basic data visualizations using Tableau."
+  summary: "Capable of generating basic data visualizations using Tableau."
   url: "https://www.tableau.com/"
 
 - name: Spreadsheets
