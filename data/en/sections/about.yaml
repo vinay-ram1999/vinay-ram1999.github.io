@@ -21,7 +21,7 @@ company:
 # a summary about you
 #summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
 
-summary: "I am a passionate Mechanical Engineer and Data Science enthusiast looking to build my career in the field of Data Science as a Data Scientist/Analyst. I work on open-source projects"
+summary: "I am a passionate Mechanical Engineer and a Data Science enthusiast looking to build my career in the field of Data Science as a Data Scientist/Analyst. I work on open-source projects. I am open to work on projects related to Data Science, AI/ML and CFD."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -71,7 +71,7 @@ resourceLinks:
 badges:
 - type: certification
   name: Google Data Analytics Professional Certificate
-  url: "https://www.credly.com/org/coursera/badge/google-data-analytics-professional-certificate.1"
+  url: "https://www.credly.com/badges/d7fbd3c9-a7e4-4182-a2ed-cd1b33c8044f/public_url"
   badge: "https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png"
 
 # - type: certification
@@ -86,18 +86,18 @@ badges:
 
 - type: soft-skill-indicator
   name: Problem Solving
-  percentage: 90
+  percentage: 95
   color: blue
 
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 85
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 95
+  percentage: 90
   color: green
+
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 95
+#   color: yellow
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
