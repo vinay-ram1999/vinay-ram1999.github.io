@@ -13,43 +13,43 @@ section:
 skills:
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Used Python as the main programming language for development in various projects. Capable of implementing Object Oriented programming."
+  summary: "Using as the main programming language for development in various projects. Capable of implementing Object Oriented programming."
   url: "https://www.python.org/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using Ubuntu Desktop as the main operating system. Capable of writing bash/shell scripts."
-  url: "https://ubuntu.com/"
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use GitHub. Also, have experience in working with GitHub Pages and deploying webpages."
   url: "https://git-scm.com/"
 
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using Ubuntu Desktop as the main operating system. Capable of writing bash/shell scripts."
+  url: "https://ubuntu.com/"
+
 - name: R
   logo: /images/sections/skills/r.svg
-  summary: ""
+  summary: "Know basic R programming in R Studio. Experienced working with 'tidyverse' and 'ggplot' packages. Used for data analysis and visualizations."
   url: "https://www.r-project.org/"
 
-- name: MySQL
+- name: SQL
   logo: /images/sections/skills/mysql.svg
-  summary: ""
+  summary: "Worked with different query languages like MySQL and BigQuery. Competent of writing nested queries."
   url: "https://www.mysql.com/"
 
 - name: Tableau
   logo: /images/sections/skills/tableau.svg
-  summary: ""
+  summary: "Comfortable in generating data visualizations using Tableau."
   url: "https://www.tableau.com/"
 
 - name: Spreadsheets
   logo: /images/sections/skills/excel.svg
-  summary: ""
-  #url: "#"
+  summary: "Comfortable in using spreadsheets and have experience in automating sheets using Apps Script in Google Sheets."
+  # url: "#"
 
-- name: LaTeX
-  logo: /images/sections/skills/latex.png
-  summary: ""
-  url: "https://www.latex-project.org/"
+# - name: LaTeX
+#   logo: /images/sections/skills/latex.png
+#   summary: "Know basic Latex. Used for documenting research papers."
+#   url: "https://www.latex-project.org/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
@@ -61,10 +61,10 @@ skills:
   #summary: "Know basic Matlab programming. Completed an online course on ``Introduction to Programming with MATLAB'' in coursera."
   #url: "https://www.mathworks.com/products/matlab.html"
 
-#- name: Solidworks
-  #logo: /images/sections/skills/solidworks.svg
-  #summary: "Have experience in designing 3D CAD models and Assembly. Generated STL models for rapid prototyping using 3D printing."
-  #url: "https://www.solidworks.com/"
+- name: Solidworks
+  logo: /images/sections/skills/solidworks.svg
+  summary: "Have experience in designing 3D CAD models and Assembly. Generated STL models for rapid prototyping using 3D printing."
+  url: "https://www.solidworks.com/"
 
 #- name: Cloud Computing
   #logo: /images/sections/skills/cloud.png
