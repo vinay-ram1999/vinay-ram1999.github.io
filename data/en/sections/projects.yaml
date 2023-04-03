@@ -30,30 +30,44 @@ projects:
 #   summary: Production-Grade Container Scheduling and Management.
 #   tags: ["Professional", "kubernetes", "cloud"]
 #
-# - name: A sample academic paper
-#   role: Team Lead
-#   timeline: "Jan 2017 - Nov 2017"
-#   url: "https://www.example.com"
-#   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-#   tags: ["Academic","iot"]
+
+- name: MURPH Analytics
+  # logo: /images/sections/projects/kubernetes.png
+  role: Owner
+  timeline: "March 2023 - Present"
+  # repo: https://github.com/vinay-ram1999/CFD-dashboard
+  url: "https://murph-postprocess.streamlit.app/"
+  summary: Interactive dashboard built to post-process and perform different analytical studies on the simulation data generated from the MURPH Solver.
+  tags: ["Streamlit", "Plotly", "Pandas", "CFD", "Professional"]
 
 - name: MURPH
   # logo: /images/sections/projects/kubernetes.png
   role: Developer, Co-Owner
-  timeline: "January 2023 - Present"
+  timeline: "December 2022 - Present"
   repo: https://github.com/UnstructuredFVM
   #url: ""
-  summary: Production-Grade Container Scheduling and Management.
-  categories: ["Professional"]
-  tags: ["CFD", "FVM", "Unstructured Mesh"]
+  summary: A Multi-dimensional (2-D/3-D), Unstructured-mesh and Reactions based Parallel solver for Hyper-sonic flow regimes.
+  tags: ["CFD", "FVM", "Unstructured Mesh", "Professional"]
 
-- name: CFD Dashboard
+- name: AlgoTrade API
   # logo: /images/sections/projects/kubernetes.png
   role: Owner
-  timeline: "March 2023 - Present"
-  repo: https://github.com/vinay-ram1999/CFD-dashboard
+  timeline: "May 2022 - October 2022"
+  repo: https://github.com/vinay-ram1999/AlgoTrade-API
   #url: ""
-  summary: Interactive dashboard built to post-process and perform different analytical studies on the simulation data generated from the MURPH Solver.
-  categories: ["Professional"]
-  tags: ["Streamlit", "Plotly", "Pandas"]
+  summary: Fully automated NSE Stock/Equity trading-bot for Kotak Securities (KOTAK TRADE API) with integrated back testing and ML algorithms for price and trend predictions.
+  tags: ["Algo Trading", "REST API", "Technical Analysis", "Machine Learning", "Personal"]
 
+- name: Accelerating a Hypersonic CO2 Reaction Solver
+  role: Team Lead
+  timeline: "July 2020 - May 2021"
+  url: "https://github.com/vinay-ram1999/vinay-ram1999/blob/master/docs/UG_report.pdf"
+  summary: A 2-D unstructured finite volume method (FVM) based framework is developed using an automatic code generation approach based on the symbolic Python package SymPy. The generated solver is capable of simulating flows in both Perfect gas and CO2 rich Martian environments.
+  tags: ["Parallel Computing", "OP2", "OpenMP", "CUDA", "Academic"]
+
+- name: Design and Analysis of Heat Sink
+  role: Design
+  timeline: "October 2020 - December 2021"
+  # url: ""
+  summary: Designed and analysed a 2-D heat sink made of Aluminium and a layer of epoxy between the chip and heat sink with specified thermal properties as a thermal design solution for cooling a noval chip (CPU for example) using CFD-HT (Computational Fluid Dynamics and Heat Transfer) software ANSYS Fluent.
+  tags: ["Thermal Design", "Ansys Fluent", "Heat Sink", "Academic"]
