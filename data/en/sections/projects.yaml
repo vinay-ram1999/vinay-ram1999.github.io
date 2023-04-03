@@ -61,7 +61,7 @@ projects:
 - name: Accelerating a Hypersonic CO2 Reaction Solver
   role: Team Lead
   timeline: "July 2020 - May 2021"
-  url: "https://github.com/vinay-ram1999/vinay-ram1999.github.io/blob/main/docs/UG_thesis.pdf"
+  url: "files/UG_thesis.pdf"
   summary: A 2-D unstructured finite volume method (FVM) based framework is developed using an automatic code generation approach based on the symbolic Python package SymPy. The generated solver is capable of simulating flows in both Perfect gas and CO2 rich Martian environments.
   tags: ["Parallel Computing", "OP2", "OpenMP", "CUDA", "Academic"]
 
