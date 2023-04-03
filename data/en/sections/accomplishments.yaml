@@ -11,36 +11,34 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
-  organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
-
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Google Data Analytics
+  timeline: "Dec 2022 - Apr 2023"
   organization:
     name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    url: https://www.coursera.org/professional-certificates/google-data-analytics
+  courseOverview: "This Professional Certificate helps to (i) Learn key analytical skills (data cleaning, analysis, & visualization) and tools (spreadsheets, SQL, R programming, Tableau) (ii) Understand how to clean and organize data for analysis, and complete analysis and calculations using spreadsheets, SQL and R programming (iii) Learn how to visualize and present data findings in dashboards, presentations and commonly used visualization platforms (iv) Gain an immersive understanding of the practices and processes used by a junior or associate data analyst in their day-to-day job."
+  certificateURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/RP7NCT24GLDR"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
-  organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
-
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Algorithmic Trading & Quantitative Analysis Using Python
+  timeline: "Mar 2023 - Apr 2023"
   organization:
     name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
- 
+    url: https://www.udemy.com/share/1021zq3@G8-2IWlGAj9iIPR3T1koumrWcg3nZft4ygJrOEJA1DNUsb6vfxUmNUzu5DQBF7pa/
+  courseOverview: "Discover how to build a fully automated trading bot on a shoestring budget. Learn quantitative analysis of financial data using python. Automate steps like extracting data, performing technical and fundamental analysis, generating signals, backtesting, API integration etc. You will learn how to code and back test trading strategies using python."
+  certificateURL: "https://www.udemy.com/certificate/UC-3d21bc2c-e132-4c08-a555-2b50d15b0f86/"
 
+- name: Introduction to Programming with MATLAB
+  timeline: "Apr 2020 - May 2020"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org/learn/matlab
+  courseOverview: "It is an introductory programming course that uses MATLAB to illustrate general concepts in computer science and programming. Students who successfully complete this course will become familiar with general concepts in computer science, gain an understanding of the general concepts of programming, and obtain a solid foundation in the use of MATLAB."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/H2DAULZMQJW7"
+ 
+- name: Autodesk Fusion 360 Integrated CAD/CAM/CAE
+  timeline: "Feb 2020 - Mar 2020"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org/learn/fusion-360-integrated-cad-cam-cae
+  courseOverview: This course builds upon digital manufacturing trends and foundational CAD concepts by introducing Fusion 360 as a problem-solving tool. In this course, we take the next step in connecting CAD, CAM, and CAE through a series of short exercises on 3D modeling, rendering, simulation, and computer aided manufacturing.
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/L8BUR4RY7U36"

@@ -46,18 +46,18 @@ degrees:
     - name: Introduction to Computer Science and Programming
       achieved: 9
       outOf: 10
+    - name: Multi Variable Calculus
+      achieved: 9
+      outOf: 10
     - name: Probability and Statistics for Engineers
       achieved: 7
       outOf: 10
     - name: Computational Fluid Dynamics
       achieved: 9
       outOf: 10
-    - name: Manufacturing Science
-      achieved: 9
-      outOf: 10
-    - name: Multi Variable Calculus
-      achieved: 9
-      outOf: 10
+    # - name: Manufacturing Science
+    #   achieved: 9
+    #   outOf: 10
   #publications: #(optional)
   #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #url: "#"
