@@ -44,8 +44,8 @@ projects:
   # logo: /images/sections/projects/kubernetes.png
   role: Developer, Co-Owner
   timeline: "December 2022 - Present"
-  repo: https://github.com/UnstructuredFVM
-  #url: ""
+  #repo: ""
+  url: https://github.com/UnstructuredFVM
   summary: A Multi-dimensional (2-D/3-D), Unstructured-mesh and Reactions based Parallel solver for Hyper-sonic flow regimes.
   tags: ["CFD", "FVM", "Unstructured Mesh", "Professional"]
 
@@ -69,5 +69,5 @@ projects:
   role: Design
   timeline: "October 2020 - December 2021"
   # url: ""
-  summary: Designed and analysed a 2-D heat sink made of Aluminium and a layer of epoxy between the chip and heat sink with specified thermal properties as a thermal design solution for cooling a noval chip (CPU for example) using CFD-HT (Computational Fluid Dynamics and Heat Transfer) software ANSYS Fluent.
+  summary: Designed and analysed a 2-D heat sink made of Aluminium and a layer of epoxy between the chip and heat sink with specified thermal properties as a thermal design solution for cooling a noval chip using CFD-HT (Computational Fluid Dynamics and Heat Transfer) software ANSYS Fluent.
   tags: ["Thermal Design", "Ansys Fluent", "Heat Sink", "Academic"]
