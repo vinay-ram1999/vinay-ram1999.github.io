@@ -3,7 +3,7 @@ node_modules/*
 
 # Latex
 # *.aux
-*.fdb_latexmk
-*.fls
-*.log
-*.out
+# *.fdb_latexmk
+# *.fls
+# *.log
+# *.out
