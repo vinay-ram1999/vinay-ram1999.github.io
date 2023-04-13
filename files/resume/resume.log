@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  13 APR 2023 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  13 APR 2023 18:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -489,6 +489,10 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box55
 )
+
+LaTeX Warning: Unused global option(s):
+    [letter].
+
 (./resume.aux)
 \openout1 = `resume.aux'.
 
@@ -731,7 +735,7 @@ LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/n' will be
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 18.
+(hyperref)                removing `\hfill' on input line 19.
 
 ) (./sections/education.tex) (./sections/certifications.tex)
 
@@ -741,10 +745,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 0785EB1E25E114B715FDB5C1E6E982FD;3041.
  ) 
 Here is how much of TeX's memory you used:
- 15412 strings out of 478599
- 239061 string characters out of 5854100
- 612288 words of memory out of 5000000
- 32989 multiletter control sequences out of 15000+600000
+ 15425 strings out of 478599
+ 239246 string characters out of 5854100
+ 612429 words of memory out of 5000000
+ 32998 multiletter control sequences out of 15000+600000
  537987 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  140i,19n,136p,460b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -762,7 +766,7 @@ ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr7.pfb>
-Output written on resume.pdf (2 pages, 375992 bytes).
+Output written on resume.pdf (2 pages, 376069 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  128 compressed objects within 2 object streams
