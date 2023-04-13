@@ -13,6 +13,25 @@ jobs:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v3
 
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.6.0
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    - name: Update Hugo Modules
+      run: hugo mod tidy
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install node modules
+      run: |
+        hugo mod npm pack
+        npm install
+
     - name: Get Date
       id: get-date
       run: |
@@ -55,26 +74,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: PDF
-        path: ./static/resume/main.pdf
-
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.6.0
-      with:
-        hugo-version: 'latest'
-        extended: true
-
-    - name: Update Hugo Modules
-      run: hugo mod tidy
-
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
-
-    - name: Install node modules
-      run: |
-        hugo mod npm pack
-        npm install
+        path: ./static/resume/resume.pdf
 
     - name: Build
       run: hugo --minify
