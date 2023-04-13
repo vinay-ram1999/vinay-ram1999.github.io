@@ -1,0 +1,65 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+%
+% Resume template for data scientists, a complement to data-science-tech-cover-letter-template:
+% https://www.overleaf.com/latex/templates/data-science-tech-cover-letter-template/gbrcqktbsfxf
+%
+% Files:        resume.tex: Main file
+%               _header.tex: header code
+%               Vinayresume.sty: style file containing formatting details
+%               section/objective: https://www.indeed.com/career-advice/resumes-cover-letters/resume-objective-examples
+%               section/skills: table of skills
+%               section/experience: projects or roles
+%               section/education: schools and stuff
+%====================
+
+
+\usepackage{Vinayresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Vinay Ram Gazula} % Name Here
+\def\phone{(+91) 8978598718}
+\def\city{Andhra Pradesh, India}
+\def\email{gazulavinayram@gmail.com}
+\def\LinkedIn{vinayramg} % linkedin.com/in/______
+\def\github{vinay-ram1999} % github username
+\def\website{vinay-ram1999.github.io}
+% \setlinkedinaccount{} %you can play with color of the template (red is also nice..)
+% \setgithubaccount{}
+% \def\role{} % JOB TITLE
+
+\input{_header}
+
+\begin{document}
+
+\input{sections/objective}
+
+\section{Skills}
+\input{sections/skills}
+
+\section{Projects}
+\input{sections/projects}
+
+\section{Professional Certifications}
+\input{sections/professional}
+
+\section{Publications}
+\input{sections/publications}
+
+\section{Experience}
+\input{sections/experience}
+
+% make a newpage wherever it is a clean break
+% \newpage
+
+\section{Education}
+\input{sections/education}
+
+\section{Certifications}
+\input{sections/certifications}
+
+\end{document}
