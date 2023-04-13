@@ -31,8 +31,9 @@ experiences:
     start: Sept 2021
     end: Mar 2022
     responsibilities:
-    - Developed Ideal gas solver from the existing CO2 solver code.
-    - Worked on the development of solver code for gaseous reactions and viscous properties.
+    - Worked on a Science Education and Research Board (SERB) govt. of India project titled "Wall Effects in Shock Wave Boundary Layer Interaction".
+    # - Developed Ideal gas solver from the existing CO2 solver code.
+    - Contibuted in the development of solver code for gaseous reactions and viscous properties.
     - Validated the solver for different flow configurations like Single ramp, Double ramp, etc,.
     - Published a conference paper in International ISHMT-ASTFE Heat and Mass Transfer Conference
 

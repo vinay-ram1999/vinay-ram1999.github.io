@@ -37,6 +37,6 @@ publications:
     url: "https://scholar.google.com/citations?user=n5WUVWAAAAAJ&hl=en&oi=sra"
   paper:
     summary: A 2-D unstructured finite volume method (FVM) based framework is developed using an automatic code generation approach based on the symbolic Python package SymPy. The generated solver is capable of simulating flows in both Perfect gas and CO2 rich Martian environments. The generated solver is auto parallelized by the OP2 framework and it is capable of running on single/multi core CPU's using OpenMP and Nvidia GPU's using CUDA architecture.
-    url: "https://ishmtdigitallibrary.com/conferences/486d924a7e5ad8c3,393f7ffc7879d8ca,2aa0e4f13f8adbd7.html"
+    url: "https://www.dl.begellhouse.com/references/486d924a7e5ad8c3,393f7ffc7879d8ca,2aa0e4f13f8adbd7.html"
   categories: ["cfd"]
   tags: ["Python", "Parallel Computing", "OP2", "OpenMP", "CUDA"]
