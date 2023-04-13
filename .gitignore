@@ -2,7 +2,7 @@ resources/*
 node_modules/*
 
 # Latex
-*.aux
+# *.aux
 *.fdb_latexmk
 *.fls
 *.log
