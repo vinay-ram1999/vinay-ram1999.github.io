@@ -16,7 +16,10 @@ jobs:
     - name: Compile LaTeX Resume
       uses: xu-cheng/latex-action@v2
       with:
-        root_file: ./static/resume/resume.tex
+        working_directory: ./static/resume/
+        root_file: ./resume.tex
+      env:
+        TEXINPUTS: ./static/resume/VinayResume.sty
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.6.0
