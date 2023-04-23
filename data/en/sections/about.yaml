@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Prospective Graduate Student
+designation: Graduate Student
 # your company information
 company:
   name: NJIT

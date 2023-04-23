@@ -12,18 +12,18 @@ section:
 experiences:
 
 # Temporary
-# - company:
-#     name: Jayram Buildeng Solutions Pvt. Ltd.
-#     url: "https://jayram-buildeng-solutions-private-limited.business.site"
-#     location: Vijayawada
-#     overview: Jayram Buildeng Solutions Pvt. Ltd. is a service based company which offers one stop solution for all your construction needs & activities.
-#   positions:
-#   - designation: CAD Designer
-#     start: Mar 2021
-#     end: Present
-#     responsibilities:
-#     - Designing 2D CAD drawings using AUTOCAD.
-#     - Producing high quality, accurate, and timely reports for clients.
+- company:
+    name: Jayram Buildeng Solutions Pvt. Ltd.
+    url: "https://jayram-buildeng-solutions-private-limited.business.site"
+    location: Vijayawada
+    overview: Jayram Buildeng Solutions Pvt. Ltd. is a service based company which offers one stop solution for all your construction needs & activities.
+  positions:
+  - designation: CAD Designer
+    start: Mar 2022
+    end: Apr 2023
+    responsibilities:
+    - Designing 2D CAD drawings using AUTOCAD.
+    - Producing high quality, accurate, and timely reports for clients.
 
 - company:
     name: SRM University AP
