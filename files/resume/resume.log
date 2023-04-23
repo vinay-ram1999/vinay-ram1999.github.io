@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  22 APR 2023 08:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  23 APR 2023 19:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -710,29 +710,33 @@ LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/it' will be
 ) (./sections/experience.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 14.
+(hyperref)                removing `\hfill' on input line 2.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 18.
+ut line 5.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/n' in size <24.88> not availab
 le
 (Font)              Font shape `T1/Alegreya-LF/regular/n' tried instead on inpu
-t line 18.
+t line 5.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 18.
+(Font)              scaled to size 24.88pt on input line 5.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/n' in size <24.88> not availab
 le
 (Font)              Font shape `T1/Alegreya-LF/bold/n' tried instead on input l
-ine 18.
+ine 5.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 18.
+(Font)              scaled to size 24.88pt on input line 5.
 
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 14.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfill' on input line 29.
@@ -748,37 +752,34 @@ Package rerunfilecheck Warning: File `resume.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             Before: B7A5CCAA9038DB2A44BAD0DFCC55DA29;3269
-(rerunfilecheck)             After:  0785EB1E25E114B715FDB5C1E6E982FD;3041.
+(rerunfilecheck)             After:  1BE040BF8EFEF9BEC7A3DB9B787143A2;3277.
  ) 
 Here is how much of TeX's memory you used:
  15427 strings out of 478599
  239276 string characters out of 5854100
- 612458 words of memory out of 5000000
+ 612335 words of memory out of 5000000
  32999 multiletter control sequences out of 15000+600000
  537987 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  140i,19n,136p,460b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.5.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/alegreya/algr_fbntfe.enc}{/
-usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/alegreya/algr_nwaz6g.enc}{/us
-r/local/texlive/2021/texmf-dist/fonts/enc/dvips/alegreya/algr_dfcgiv.enc}{/usr/
-local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</
-usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegreya/Alegreya-Bold.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegreya/Alegreya-BoldI
-talic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegreya/Alegr
-eya-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegreya/
-Alegreya-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fon
-tawesome/FontAwesome.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb>
-Output written on resume.pdf (2 pages, 375963 bytes).
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/alegreya/algr_fbntfe.enc}
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/alegreya/algr_nwaz6g.enc}{/
+usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/alegreya/algr_dfcgiv.enc}{/us
+r/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}
+</usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegreya/Alegreya-Bold.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegreya/Alegreya-Bol
+dItalic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegreya/Ale
+greya-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/huerta/alegrey
+a/Alegreya-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/f
+ontawesome/FontAwesome.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb>
+Output written on resume.pdf (2 pages, 376541 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
+ 160 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
