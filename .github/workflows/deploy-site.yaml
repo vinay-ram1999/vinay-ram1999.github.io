@@ -38,7 +38,7 @@ jobs:
         working_directory: ./static/files/resume/
         root_file: ./resume.tex
         compiler: pdflatex
-        # args: -interaction=nonstopmode -shell-escape
+        args: -interaction=nonstopmode -shell-escape
 
     - name: Build
       run: hugo --minify
