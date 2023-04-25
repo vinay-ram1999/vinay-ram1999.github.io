@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.1)  15 APR 2023 11:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.1)  25 APR 2023 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -725,6 +725,12 @@ le
 ine 5.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/n' will be
 (Font)              scaled to size 24.88pt on input line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/sc' in size <24.88> not availa
+ble
+(Font)              Font shape `T1/Alegreya-LF/bold/sc' tried instead on input 
+line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/sc' will be
+(Font)              scaled to size 24.88pt on input line 5.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -742,14 +748,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 AED: lastpage setting LastPage
 [2] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: B7A5CCAA9038DB2A44BAD0DFCC55DA29;3269.
+(rerunfilecheck)             Checksum: 1BE040BF8EFEF9BEC7A3DB9B787143A2;3277.
  ) 
 Here is how much of TeX's memory you used:
- 16065 strings out of 478287
- 262509 string characters out of 5849290
- 608390 words of memory out of 5000000
- 33956 multiletter control sequences out of 15000+600000
- 603816 words of font info for 49 fonts, out of 8000000 for 9000
+ 16067 strings out of 478287
+ 262565 string characters out of 5849290
+ 608444 words of memory out of 5000000
+ 33958 multiletter control sequences out of 15000+600000
+ 614689 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  140i,19n,134p,458b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/alegreya/algr_fbntfe.enc}{/usr
@@ -765,10 +771,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr7.pfb>
-Output written on resume.pdf (2 pages, 376648 bytes).
+Output written on resume.pdf (2 pages, 377544 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 161 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
