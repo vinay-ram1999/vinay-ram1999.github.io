@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  25 APR 2023 09:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  25 APR 2023 10:48
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **./resume.tex
 (./resume.tex
@@ -311,7 +311,7 @@ mbles
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2020/09/29 v0.7d Provides the file path elements of the curre
@@ -757,7 +757,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  15429 strings out of 478599
  239332 string characters out of 5854100
- 612737 words of memory out of 5000000
+ 612738 words of memory out of 5000000
  33001 multiletter control sequences out of 15000+600000
  548860 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
