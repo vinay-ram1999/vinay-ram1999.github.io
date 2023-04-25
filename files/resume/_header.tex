@@ -7,10 +7,10 @@
 
 \newcommand{\phoneview}{\faPhone\ \phone}
 \newcommand{\cityview}{\faMapMarker\ \city}
-\newcommand{\mailview}{\href{mailto:\email}{\faEnvelope\ \email}}
-\newcommand{\githubview}{\href{https://github.com/\github}{\faGithubSquare\ github.com/\github}}
-\newcommand{\linkedinview}{\href{https://www.linkedin.com/in/\LinkedIn}{\faLinkedinSquare\ linkedin.com/in/\LinkedIn}}
-\newcommand{\webview}{\href{https://\website}{\faHome\ \website}}
+\newcommand{\mailview}{\faEnvelope\ \href{mailto:\email}{\email}}
+\newcommand{\githubview}{\faGithubSquare\ \href{https://github.com/\github}{github.com/\github}}
+\newcommand{\linkedinview}{\faLinkedinSquare\ \href{https://www.linkedin.com/in/\LinkedIn}{linkedin.com/in/\LinkedIn}}
+\newcommand{\webview}{\faHome\ \href{https://\website}{\website}}
 
 
 \usepackage{fancyhdr}
@@ -31,7 +31,7 @@
 	    \mailview } % EMAIL}
 
 \chead{
-	    \Huge \bfseries \name % feel free to adjust vspace to 0
+	    \Huge \bfseries \textsc \name % feel free to adjust vspace to 0
 	    }
 
 \rhead{ \webview \\

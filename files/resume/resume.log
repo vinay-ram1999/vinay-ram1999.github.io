@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  23 APR 2023 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.19)  25 APR 2023 09:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -729,6 +729,12 @@ le
 ine 5.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/n' will be
 (Font)              scaled to size 24.88pt on input line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/sc' in size <24.88> not availa
+ble
+(Font)              Font shape `T1/Alegreya-LF/bold/sc' tried instead on input 
+line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/sc' will be
+(Font)              scaled to size 24.88pt on input line 5.
 
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -745,21 +751,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 AED: lastpage setting LastPage
 [2] (./resume.aux)
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: B7A5CCAA9038DB2A44BAD0DFCC55DA29;3269
-(rerunfilecheck)             After:  1BE040BF8EFEF9BEC7A3DB9B787143A2;3277.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 1BE040BF8EFEF9BEC7A3DB9B787143A2;3277.
  ) 
 Here is how much of TeX's memory you used:
- 15427 strings out of 478599
- 239276 string characters out of 5854100
- 612335 words of memory out of 5000000
- 32999 multiletter control sequences out of 15000+600000
- 537987 words of font info for 48 fonts, out of 8000000 for 9000
+ 15429 strings out of 478599
+ 239332 string characters out of 5854100
+ 612737 words of memory out of 5000000
+ 33001 multiletter control sequences out of 15000+600000
+ 548860 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  140i,19n,136p,460b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/alegreya/algr_fbntfe.enc}
@@ -776,10 +776,10 @@ ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr7.pfb>
-Output written on resume.pdf (2 pages, 376541 bytes).
+Output written on resume.pdf (2 pages, 377518 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 161 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
