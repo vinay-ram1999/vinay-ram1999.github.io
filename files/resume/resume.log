@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  9 JUL 2023 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  30 AUG 2023 20:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -716,18 +716,23 @@ le
 t line 5.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
 (Font)              scaled to size 24.88pt on input line 5.
-LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/n' in size <24.88> not availab
-le
-(Font)              Font shape `T1/Alegreya-LF/bold/n' tried instead on input l
-ine 5.
-LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 5.
-LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/sc' in size <24.88> not availa
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/sc' in size <24.88> not availa
 ble
-(Font)              Font shape `T1/Alegreya-LF/bold/sc' tried instead on input 
-line 5.
-LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/sc' will be
+(Font)              Font shape `T1/Alegreya-LF/regular/sc' tried instead on inp
+ut line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/sc' will be
 (Font)              scaled to size 24.88pt on input line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/n' in size <12> not available
+(Font)              Font shape `T1/Alegreya-LF/regular/n' tried instead on inpu
+t line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/sc' in size <12> not available
+
+(Font)              Font shape `T1/Alegreya-LF/regular/sc' tried instead on inp
+ut line 5.
+LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/sc' will be
+(Font)              scaled to size 12.0pt on input line 5.
 
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/u
@@ -748,14 +753,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 enddocument/afterlastpage: lastpage setting LastPage.
 (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 1BE040BF8EFEF9BEC7A3DB9B787143A2;3277.
+(rerunfilecheck)             Checksum: BA5108A4BF2165A463F931855CDC2DFE;3285.
  ) 
 Here is how much of TeX's memory you used:
- 16193 strings out of 476047
- 268017 string characters out of 5790254
+ 16196 strings out of 476047
+ 268090 string characters out of 5790254
  1884248 words of memory out of 5000000
- 36306 multiletter control sequences out of 15000+600000
- 657717 words of font info for 54 fonts, out of 8000000 for 9000
+ 36308 multiletter control sequences out of 15000+600000
+ 664907 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  140i,19n,134p,460b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/huerta/alegreya/Alegreya-Bold
@@ -768,10 +773,10 @@ blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr7.pfb>
-Output written on resume.pdf (2 pages, 377702 bytes).
+Output written on resume.pdf (2 pages, 380487 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
