@@ -17,12 +17,12 @@
 
 % COLOR
 \RequirePackage{xcolor}
-\definecolor{highlight}{RGB}{61, 90, 128} % CHANGE THIS TO YOUR FAV COLOR https://g.co/kgs/aoqdi7
-\definecolor{url}{RGB}{85, 130, 189} % CHANGE THIS TO YOUR FAV COLOR https://g.co/kgs/aoqdi7
+\definecolor{highlight}{RGB}{35, 144, 176} % CHANGE THIS TO YOUR FAV COLOR https://g.co/kgs/aoqdi7
+%\definecolor{url}{RGB}{85, 130, 189} % CHANGE THIS TO YOUR FAV COLOR https://g.co/kgs/aoqdi7
 
 % LINKS
 \RequirePackage{hyperref}
-\hypersetup{colorlinks=true,urlcolor=url,urlbordercolor=url}
+\hypersetup{colorlinks=true,urlcolor=blue,urlbordercolor=blue}
 
 % BULLET POINTS
 \RequirePackage[inline]{enumitem}
@@ -46,7 +46,7 @@
 % tighter spacing than itemize
 \setlist[itemize]{align=parleft,left=0pt..1em}
 \newenvironment{zitemize}{
-\begin{itemize} \itemsep 0pt \parskip 0pt \parsep 1pt}
+\begin{itemize}\vspace{-.5em} \itemsep 0pt \parskip 0pt \parsep 1pt}
 {\end{itemize}\vspace{-.5em}}
 
 % NO PAGE NUMBER
@@ -60,7 +60,7 @@
 \RequirePackage{blindtext}% Filler Text
 
 % Footnote
-\newcommand\createfootnote{%
+\newcommand\createfootnote{
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
-    \renewcommand\footnoterule{\rule{0.3\linewidth}{0.5pt}}
-    \let\thefootnote\relax\footnote{\today \hspace{1pt} \name}}
+    \renewcommand\footnoterule{\color{highlight} \rule{0.3\linewidth}{0.5pt}}
+    \let\thefootnote\relax\footnotetext{\color{highlight} \today}}

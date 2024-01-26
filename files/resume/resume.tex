@@ -28,7 +28,7 @@
 %====================
 % CONTACT INFORMATION
 %====================
-\def\name{Vinay Ram Gazula} % Name Here
+\def\name{\color{highlight} Vinay Ram Gazula} % Name Here
 \def\phone{(+1) 908-552-1879}
 \def\city{New Jersey, USA}
 \def\email{gazulavinayram@gmail.com}
@@ -37,42 +37,46 @@
 \def\website{vinay-ram1999.github.io}
 % \setlinkedinaccount{} %you can play with color of the template (red is also nice..)
 % \setgithubaccount{}
-\def\role{Graduate Student at NJIT} % JOB TITLE
+\def\role{\color{highlight} Graduate Student at NJIT} % JOB TITLE
 
 \input{_header}
+
+\thispagestyle{firstpage}
 
 \begin{document}
 
 \input{sections/objective}
 
-\section{Skills}
+\section{Education}
+\input{sections/education}
+
+\section{Technical Skills}
 \input{sections/skills}
-
-\section{Projects}
-\input{sections/projects}
-
-\section{Professional Certifications}
-\input{sections/professional}
-
-\section{Publications}
-\input{sections/publications}
 
 \section{Experience}
 \input{sections/experience}
 
+\section{Research Publications}
+\input{sections/publications}
+
+\section{Professional Certifications}
+\input{sections/professional}
+
+\section{Projects}
+\input{sections/projects}
+
 % make a newpage wherever it is a clean break
 % \newpage
-
-\section{Education}
-\input{sections/education}
 
 \section{Certifications}
 \input{sections/certifications}
 
 % Note
-\vspace{1em}
-\begin{flushright}
-\footnotesize{** Click on \href{\website}{hyperlinks} for additional information and resources}
-\end{flushright}
+%\vspace{1em}
+%\begin{flushright}
+%\footnotesize{** Click on \href{\website}{hyperlinks} for additional information and resources}
+%\end{flushright}
+
+\createfootnote
 
 \end{document}
