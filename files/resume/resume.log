@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  26 JAN 2024 09:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  26 JAN 2024 09:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -775,7 +775,7 @@ l.82 \end{document}
 enddocument/afterlastpage: lastpage setting LastPage.
 (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 7BEB9EB1EF5EDE87295CC8B28E81BCAB;5288.
+(rerunfilecheck)             Checksum: C95116A4C2789057D5F5984B87A7DC49;5240.
  ) 
 Here is how much of TeX's memory you used:
  16223 strings out of 476047
@@ -796,7 +796,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
 -super/sftt1000.pfb>
-Output written on resume.pdf (2 pages, 362894 bytes).
+Output written on resume.pdf (2 pages, 362886 bytes).
 PDF statistics:
  173 PDF objects out of 1000 (max. 8388607)
  144 compressed objects within 2 object streams
