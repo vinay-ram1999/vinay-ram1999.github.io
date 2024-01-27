@@ -12,8 +12,8 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "Professional"
+- name: Research
+  filter: "Research"
 - name: Academic
   filter: "Academic"
 - name: Personal
@@ -28,46 +28,64 @@ projects:
 #   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
 #   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
 #   summary: Production-Grade Container Scheduling and Management.
-#   tags: ["Professional", "kubernetes", "cloud"]
+#   tags: ["Research", "kubernetes", "cloud"]
 #
 
+- name: Interpretable Machine Learning for Flare Prediction
+  role: Developer
+  timeline: "March 2023 - Ongoing"
+  repo: https://github.com/vinay-ram1999/SolarFlareNet
+  summary: Integrated XAI tools like LIME, SHAP, PDP and ALE plots into multiple machine learning and deep learning tools used for predictiong space weather.
+  tags: ["Python", "Tensorflow", "ML", "DL", "XAI", "Research"]
+
+- name: eComputer Store Database System
+  role: Developer, Team Lead
+  timeline: "September 2023 - December 2023"
+  repo: https://github.com/vinay-ram1999/CS631-DMSD
+  summary: Designed and developed a working database for an eComputerStore using a a traditional approach for building database by designing an Enhanced Entity Relationship (EER) diagram, transforming the EER model to a Relational database schema and creating the database tables in MySQL using the Relational schema.
+  tags: ["MySQL", "Python", "Streamlit", "Pandas", "Academic"]
+
 - name: MURPH Analytics
-  # logo: /images/sections/projects/kubernetes.png
-  role: Owner
-  timeline: "March 2023 - Present"
+  role: Developer, Owner
+  timeline: "March 2023 - May 2023"
   # repo: https://github.com/vinay-ram1999/CFD-dashboard
-  url: "https://murph-postprocess.streamlit.app/"
+  url: https://murph-postprocess.streamlit.app/
   summary: Interactive dashboard built to post-process and perform different analytical studies on the simulation data generated from the MURPH Solver.
-  tags: ["Streamlit", "Plotly", "Pandas", "CFD", "Professional"]
+  tags: ["Streamlit", "Plotly", "Pandas", "CFD", "Personal"]
 
 - name: MURPH
-  # logo: /images/sections/projects/kubernetes.png
   role: Developer, Co-Owner
-  timeline: "December 2022 - Present"
+  timeline: "December 2022 - Ongoing"
   #repo: ""
   url: https://github.com/UnstructuredFVM
   summary: A Multi-dimensional (2-D/3-D), Unstructured-mesh and Reactions based Parallel solver for Hyper-sonic flow regimes.
-  tags: ["CFD", "FVM", "Unstructured Mesh", "Professional"]
+  tags: ["CFD", "FVM", "Unstructured Mesh", "Research"]
 
 - name: AlgoTrade API
-  # logo: /images/sections/projects/kubernetes.png
-  role: Owner
-  timeline: "May 2022 - October 2022"
+  role: Developer, Owner
+  timeline: "May 2022 - Ongoing"
   repo: https://github.com/vinay-ram1999/AlgoTrade-API
   #url: ""
   summary: Fully automated NSE Stock/Equity trading-bot for Kotak Securities (KOTAK TRADE API) with integrated back testing and ML algorithms for price and trend predictions.
   tags: ["Algo Trading", "REST API", "Technical Analysis", "Machine Learning", "Personal"]
 
 - name: Accelerating a Hypersonic CO2 Reaction Solver
-  role: Team Lead
+  role: Developer, Team Lead
   timeline: "July 2020 - May 2021"
   url: "files/UG_thesis.pdf"
   summary: A 2-D unstructured finite volume method (FVM) based framework is developed using an automatic code generation approach based on the symbolic Python package SymPy. The generated solver is capable of simulating flows in both Perfect gas and CO2 rich Martian environments.
   tags: ["Parallel Computing", "OP2", "OpenMP", "CUDA", "Academic"]
 
 - name: Design and Analysis of Heat Sink
-  role: Design
-  timeline: "October 2020 - December 2021"
+  role: Designer
+  timeline: "October 2020 - December 2020"
   # url: ""
   summary: Designed and analysed a 2-D heat sink made of Aluminium and a layer of epoxy between the chip and heat sink with specified thermal properties as a thermal design solution for cooling a noval chip using CFD-HT (Computational Fluid Dynamics and Heat Transfer) software ANSYS Fluent.
   tags: ["Thermal Design", "Ansys Fluent", "Heat Sink", "Academic"]
+
+- name: Sub-Sonic Wind tunnel
+  role: Designer, Team Lead
+  timeline: "September 2019 - December 2019"
+  # url: ""
+  summary: Designed and built a subsonic wind tunnel, which is capable of achieving air speeds close to 30m/s in the test section with expected low intensity turbulence level, making it available for research in areas such as low speed aerodynamics, etc.
+  tags: ["Design", "CAD", "CFD", "Manufacturing", "Research"]

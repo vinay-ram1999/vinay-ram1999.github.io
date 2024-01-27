@@ -30,6 +30,31 @@ degrees:
 
 - name: Bachelor of Technology in Mechanical Engineering
   icon: fa-graduation-cap
+  timeframe: 2023-2025
+  institution:
+    name: New Jersey Institute of Technology
+    url: "https://www.njit.edu/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.83
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Introduction to Big Data
+      achieved: 4
+      outOf: 4
+    - name: Data Managment Systems Design
+      achieved: 4
+      outOf: 4
+    - name: Applied Statistics
+      achieved: 3.5
+      outOf: 4
+
+- name: Bachelor of Technology in Mechanical Engineering
+  icon: fa-university
   timeframe: 2017-2021
   institution:
     name: SRM University AP
@@ -69,7 +94,7 @@ degrees:
   - Participated in Single's Table Tennis tournament in SportsFest and reached Semi-Finals.
 
 - name: Board of Intermediate Education Andhra Pradesh, BIEAP
-  icon: fa-university
+  icon: fa-school
   timeframe: 2015-2017
   institution:
     name: Narayana Junior College
@@ -85,7 +110,7 @@ degrees:
   #- Pellentesque ut fringilla magna.
 
 - name: Central Board of Secondary Education, CBSE
-  icon: fa-school
+  icon: fa-school-flag
   timeframe: 2014-2015
   institution:
     name: Sri Chaitanya Techno School

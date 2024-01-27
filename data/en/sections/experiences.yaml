@@ -10,8 +10,19 @@ section:
 
 # Your experiences
 experiences:
+- company:
+    name: New Jersey Institute of Technology
+    url: "https://www.njit.edu/"
+    location: New Jersey
+    overview: Was offered to conduct research under the guidance of Dr. Jason T. L. Wang (Professor, Computer Science, NJIT).
+  positions:
+  - designation: Research Assistant
+    start: Oct 2023
+    end: Present
+    responsibilities:
+    - Integrated Explainable AI (XAI) tools and leveraged interpretability into machine learning and deep learning tools used for space weather research in collaboration with NSF / NASA.
+    - Incorporated XAI tools LIME, SHAP, PDP and ALE plots into a transformer-based framework "SolarFlareNet", used to forecast whether a M-class flare occures within 24, 48 & 72 hours using SHARP parameters.
 
-# Temporary
 - company:
     name: Jayram Buildeng Solutions Pvt. Ltd.
     url: "https://jayram-buildeng-solutions-private-limited.business.site"
@@ -24,24 +35,15 @@ experiences:
     responsibilities:
     - Designing 2D CAD drawings using AutoCAD.
     - Producing high quality, accurate, and timely reports for clients.
+    - Actively organised and participated in client meetings and contributed in promoting the services provided by the firm.
 
 - company:
     name: SRM University AP
     url: "https://srmap.edu.in"
     location: Andhra Pradesh
     # company overview
-    overview: Was offered to work as a Research Intern under Dr. Satya P Jammy, Associate Professor, Department of Mechanical Engineering, SRM University AP.
+    overview: Was offered to work as a Research Intern under Dr. Satya P Jammy (Associate Professor, Department of Mechanical Engineering, SRM University AP).
   positions:
-  #- designation: Senior Software Engineer
-    #start: Nov 2019
-    ## don't provide end date if you are currently working there. It will be replaced by "Present"
-    ## end: Dec 2020
-    ## give some points about what was your responsibilities at the company.
-    #responsibilities:
-    #- Design and develop XYZ tool for ABC task
-    #- Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    #- Lead backend team.
-
   - designation: Research Intern
     start: Sept 2021
     end: Mar 2022
@@ -50,7 +52,7 @@ experiences:
     # - Developed Ideal gas solver from the existing CO2 solver code.
     - Contibuted in the development of solver code for gaseous reactions and viscous properties.
     - Validated the solver for different flow configurations like Single ramp, Double ramp, etc,.
-    - Published a conference paper in International ISHMT-ASTFE Heat and Mass Transfer Conference
+    - Published a conference paper in International ISHMT-ASTFE Heat and Mass Transfer Conference.
 
 #- company:
     #name: PreExample Co.
