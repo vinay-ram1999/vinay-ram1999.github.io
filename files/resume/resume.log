@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  15 FEB 2024 07:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  4 MAR 2024 07:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -484,7 +484,7 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+Alegreya-LF on input
- line 46.
+ line 47.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/alegreya/T1Alegreya-LF.fd
 File: T1Alegreya-LF.fd 2019/10/08 (autoinst) Font definitions for T1/Alegreya-L
@@ -492,9 +492,9 @@ F.
 )
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/n' in size <10> not available
 (Font)              Font shape `T1/Alegreya-LF/regular/n' tried instead on inpu
-t line 46.
+t line 47.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 46.
+(Font)              scaled to size 10.0pt on input line 47.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
@@ -508,24 +508,24 @@ LaTeX Warning: Unused global option(s):
 (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 \c@mv@tabular=\count307
 \c@mv@boldtabular=\count308
 
@@ -585,7 +585,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 47.
 
 (./resume.out) (./resume.out)
 \@outlinefile=\write3
@@ -595,21 +595,21 @@ Package hyperref Info: Link coloring ON on input line 46.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/sc' in size <10> not available
 
 (Font)              Font shape `T1/Alegreya-LF/regular/sc' tried instead on inp
-ut line 50.
+ut line 51.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 50.
+(Font)              scaled to size 10.0pt on input line 51.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/sc' in size <10> not available
 
 (Font)              Font shape `T1/Alegreya-LF/bold/sc' tried instead on input 
-line 50.
+line 51.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/sc' will be
-(Font)              scaled to size 10.0pt on input line 50.
+(Font)              scaled to size 10.0pt on input line 51.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/sc' in size <12> not available
 
 (Font)              Font shape `T1/Alegreya-LF/bold/sc' tried instead on input 
-line 50.
+line 51.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/bold/sc' will be
-(Font)              scaled to size 12.0pt on input line 50.
+(Font)              scaled to size 12.0pt on input line 51.
 
 (./sections/education.tex
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/b/n' in size <10> not available
@@ -675,33 +675,33 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfill' on input line 10.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 14.
+ut line 13.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/n' in size <24.88> not availab
 le
 (Font)              Font shape `T1/Alegreya-LF/regular/n' tried instead on inpu
-t line 14.
+t line 13.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 14.
+(Font)              scaled to size 24.88pt on input line 13.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/sc' in size <24.88> not availa
 ble
 (Font)              Font shape `T1/Alegreya-LF/regular/sc' tried instead on inp
-ut line 14.
+ut line 13.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/sc' will be
-(Font)              scaled to size 24.88pt on input line 14.
+(Font)              scaled to size 24.88pt on input line 13.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/n' in size <12> not available
 (Font)              Font shape `T1/Alegreya-LF/regular/n' tried instead on inpu
-t line 14.
+t line 13.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 14.
+(Font)              scaled to size 12.0pt on input line 13.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/sc' in size <12> not available
 
 (Font)              Font shape `T1/Alegreya-LF/regular/sc' tried instead on inp
-ut line 14.
+ut line 13.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/sc' will be
-(Font)              scaled to size 12.0pt on input line 14.
+(Font)              scaled to size 12.0pt on input line 13.
 
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/u
@@ -750,32 +750,32 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ) (./sections/certifications.tex)
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/n' in size <7> not available
 (Font)              Font shape `T1/Alegreya-LF/regular/n' tried instead on inpu
-t line 80.
+t line 81.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/m/n' in size <5> not available
 (Font)              Font shape `T1/Alegreya-LF/regular/n' tried instead on inpu
-t line 80.
+t line 81.
 LaTeX Font Info:    Font shape `T1/Alegreya-LF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 80.
+Package hyperref Warning: Ignoring empty anchor on input line 81.
 
 [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 2215D9582AD17865F98B1157E05D6B64;5058.
+(rerunfilecheck)             Checksum: 3104E0485A787C3F8ECFEFE45A88D903;5058.
  ) 
 Here is how much of TeX's memory you used:
  16215 strings out of 476047
  268688 string characters out of 5790254
- 1888248 words of memory out of 5000000
+ 1889248 words of memory out of 5000000
  36324 multiletter control sequences out of 15000+600000
  677979 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 140i,16n,134p,740b,644s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 140i,16n,134p,740b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/huerta/alegreya/Alegreya-Bold
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/huerta/alegreya/Alegreya-B
 oldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/huerta/alegreya/A
@@ -787,7 +787,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
 -super/sftt1000.pfb>
-Output written on resume.pdf (2 pages, 364068 bytes).
+Output written on resume.pdf (2 pages, 363977 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  142 compressed objects within 2 object streams
