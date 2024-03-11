@@ -6,12 +6,12 @@
 
 \RequirePackage[T1]{fontenc} %  Font encoding https://texfaq.org/FAQ-why-inp-font
 \RequirePackage{Alegreya}
-\RequirePackage[11pt]{moresize}
+\RequirePackage[10pt]{moresize}
 \usepackage{anyfontsize}
 \RequirePackage{csquotes}
 
 % MARGINS AND SPACING
-\RequirePackage[includefoot, margin=.5in, top=.5in, bottom=1in]{geometry} % Set Margins
+\RequirePackage[includefoot, margin=.3in, top=.5in, bottom=0.1in]{geometry} % Set Margins
 \raggedright % left align no indent
 \raggedbottom % top align no indent
 
@@ -30,8 +30,8 @@
 
 % SECTION FORMATTING 
 \RequirePackage[nostruts]{titlesec}
-\titlespacing*{\section}{0em}{0.5em}{0em}
-\titleformat{\section}{\color{highlight} \scshape \bfseries \raggedright \large}{}{0em}{}[\vspace{-0.75em}\hrulefill]
+\titlespacing*{\section}{0em}{0em}{0em}
+\titleformat{\section}{\color{highlight} \scshape \bfseries \raggedright \large}{}{0em}{}[\vspace{-0.85em}\hrulefill]
 
 % SUBSECTION FORMATTING
 \titlespacing*{\subsection}{0em}{0em}{0em}
@@ -46,14 +46,14 @@
 % tighter spacing than itemize
 \setlist[itemize]{align=parleft,left=0pt..1em}
 \newenvironment{zitemize}{
-\begin{itemize}\vspace{-.5em} \itemsep 0pt \parskip 0pt \parsep 1pt}
-{\end{itemize}\vspace{-.5em}}
+\begin{itemize}\vspace{-.55em} \itemsep 0pt \parskip 0pt \parsep 1pt}
+{\end{itemize}\vspace{-.55em}}
 
 % NO PAGE NUMBER
-% \pagenumbering{gobble}
+\pagenumbering{gobble}
 
 % PAGE NUMBER
-\pagenumbering{arabic}
+% \pagenumbering{arabic}
 
 % SUBFILES IMPORTING
 \RequirePackage{standalone}
