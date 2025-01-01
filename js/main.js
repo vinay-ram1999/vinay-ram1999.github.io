@@ -72,9 +72,10 @@
 	    var href = $.attr(this, 'href');
 
 	    $('html, body').animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top - 70
+	        scrollTop: $($.attr(this, 'href')).offset().top
 	    }, 500, function() {
 	    	// window.location.hash = href;
+			$('.navbar-collapse').collapse('hide'); // Close the navbar if it is open
 	    });
 		});
 
@@ -91,6 +92,8 @@
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
 	    nav:false,
+		touchDrag: false, // Disable touch dragging
+    	mouseDrag: false, // Optional: Disable mouse dragging
 	    autoplayHoverPause: false,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
