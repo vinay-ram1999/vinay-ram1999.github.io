@@ -8542,6 +8542,9 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text h2 {
           font-size: 30px;
           font-weight: 400; }
+          .owl-carousel.home-slider .slider-item .slider-text h2 span {
+            font-weight: 400;
+            color: #ffbd39; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
               color: #fff; } }
