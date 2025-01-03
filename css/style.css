@@ -497,8 +497,8 @@ pre {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 10px;
+  padding-left: 10px; }
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -716,9 +716,9 @@ pre {
     max-width: 8.33333%; }
   .col-sm-2 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 16.66667%;
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%; }
+    -ms-flex: 0 0 14%;
+    flex: 0 0 14%;
+    max-width: 14%; }
   .col-sm-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
@@ -8805,52 +8805,43 @@ h1, h2, h3, h4, h5,
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 10px; }
   .resume-wrap .date {
     font-weight: 900;
     font-size: 26px;
     color: #ffbd39; }
   .resume-wrap h2 {
+    font-weight: 600;
     font-size: 26px; }
   .resume-wrap .position {
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase; }
 
 .services-1 {
-  margin-bottom: 40px;
-  padding: 2em;
+  margin-bottom: 10px;
+  padding: 1em;
   background: rgba(255, 255, 255, 0.1);
   width: 100%;
+  height: 70%;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17); }
   .services-1 .icon {
     display: block;
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
     .services-1 .icon i {
-      font-size: 60px;
+      font-size: 40px;
       line-height: 1.0;
       color: #ffbd39; }
   .services-1 .desc h3 {
-    line-height: 1.3;
     font-size: 13px;
     font-weight: 500;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    letter-spacing: 1px;
     position: relative;
     color: #fff; }
-    .services-1 .desc h3:after {
-      position: absolute;
-      bottom: -15px;
-      left: 0;
-      right: 0;
-      content: '';
-      width: 30px;
-      height: 1px;
-      background: #ffbd39;
-      margin: 0 auto; }
     .services-1 .desc h3 a {
       color: #fff; }
   .services-1 .desc h4 {
@@ -9067,11 +9058,11 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 5em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
