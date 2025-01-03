@@ -8686,9 +8686,9 @@ h1, h2, h3, h4, h5,
           color: #ffbd39; }
 
 .slider-text .bread {
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
-  font-size: 7vw; }
+  font-size: 5vw; }
 
 .bg-light {
   background: #f8f9fa !important; }
@@ -9470,7 +9470,7 @@ textarea.form-control {
       opacity: .5; }
 
 .tagcloud a {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   display: inline-block;
   padding: 4px 10px;
   margin-bottom: 7px;
@@ -9478,9 +9478,9 @@ textarea.form-control {
   border-radius: 4px;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 11px; }
+  font-size: 13px; }
   .tagcloud a:hover {
-    border: 1px solid #000; }
+    border: 1px solid #ffbd39; }
 
 .comment-form-wrap {
   clear: both; }
@@ -9548,8 +9548,8 @@ textarea.form-control {
   transform: translateY(-50%); }
 
 .sidebar-box {
-  margin-bottom: 30px;
-  padding: 25px;
+  margin-bottom: 15px;
+  padding: 10px;
   font-size: 15px;
   width: 100%; }
   .sidebar-box h3 {
@@ -9559,6 +9559,36 @@ textarea.form-control {
     font-weight: 600;
     margin-bottom: 20px;
     font-size: 20px; }
+  .sidebar-box .ftco-sidebar-social {
+      list-style: none; /* Removes bullet points */
+      padding: 0; /* Removes default padding */
+      margin: 0; /* Removes default margin */
+  }
+  .sidebar-box .ftco-sidebar-social li {
+    display: flex; /* Use flex to align icon and text */
+    align-items: center; /* Vertically align icon and text */
+    margin-bottom: 15px; /* Add space between list items */ }
+  .sidebar-box .ftco-sidebar-social li a {
+      text-decoration: none; /* Remove underline from links */
+      color: #ffbd39; /* Default text color */
+      font-size: 16px; /* Adjust text size */
+      display: flex; /* Align icon and text in the same row */
+      align-items: center; /* Vertically align icon and text */
+  }
+  .sidebar-box .ftco-sidebar-social li a span {
+      height: 40px; /* Adjust icon size */
+      width: 40px; /* Adjust icon size */
+      display: flex; /* Center icon content */
+      align-items: center; /* Center icon content */
+      justify-content: center; /* Center icon content */
+      background: rgba(255, 255, 255, 0.1); /* Circle background */
+      color: #ffbd39;
+      border-radius: 50%; /* Make it circular */
+      font-size: 25px; /* Icon font size */
+      margin-right: 10px; /* Space between icon and text */
+  }
+  .sidebar-box .ftco-sidebar-social li a:hover {
+      color: #fff; }
 
 .categories, .sidelink {
   padding: 0;

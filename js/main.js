@@ -27,6 +27,16 @@
 	};
 	fullHeight();
 
+	var partialHeight = function() {
+
+		$('.js-partialheight').css('height', $(window).height() * 0.4);
+		$(window).resize(function(){
+			$('.js-partialheight').css('height', $(window).height() * 0.4);
+		});
+
+	};
+	partialHeight();
+
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
