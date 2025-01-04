@@ -9590,6 +9590,12 @@ textarea.form-control {
   .sidebar-box .ftco-sidebar-social li a:hover {
       color: #fff; }
 
+.tableau-fixed {
+  width: 100%; /* Set your desired width */
+  height: 100%; /* Set your desired height */
+  border: none;
+}
+
 .categories, .sidelink {
   padding: 0;
   margin: 0; }

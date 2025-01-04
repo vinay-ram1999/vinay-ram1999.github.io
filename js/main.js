@@ -38,8 +38,15 @@
 	partialHeight();
 
 	const projectTitlesMap = {
-		3: "WebScrapping-R",
-		2: "AlgoTrade-API",
+		10: "TradeForecast",
+		9: "Healthcare Analytics",
+		8: "SRDB Analytics",
+		7: "Event-Driven Alerts",
+		6: "UniversityRankings",
+		5: "SolarFlareNet xAI",
+		4: "AlgoTrade-API",
+		3: "eStore DB Design",
+		2: "WebScrapping-R",
 		1: "UnstructuredFVM"
 	};
 	
