@@ -29,13 +29,33 @@
 
 	var partialHeight = function() {
 
-		$('.js-partialheight').css('height', $(window).height() * 0.4);
+		$('.js-partialheight').css('height', $(window).height() * 0.333333);
 		$(window).resize(function(){
-			$('.js-partialheight').css('height', $(window).height() * 0.4);
+			$('.js-partialheight').css('height', $(window).height() * 0.333333);
 		});
 
 	};
 	partialHeight();
+
+	const projectTitlesMap = {
+		3: "WebScrapping-R",
+		2: "AlgoTrade-API",
+		1: "UnstructuredFVM"
+	};
+	
+	// Function to set project titles dynamically based on attribute
+	var assignProjectTitles = function() {
+	const projectElements = document.querySelectorAll('.project-title');
+	projectElements.forEach(element => {
+		const projectNumber = element.getAttribute('project-number');
+		const title = projectTitlesMap[projectNumber]; // Retrieve title from map
+		if (title) {
+		  element.innerText = title; // Set the project title
+		} 
+	  	});
+	}
+	assignProjectTitles();
+	
 
 	// loader
 	var loader = function() {
