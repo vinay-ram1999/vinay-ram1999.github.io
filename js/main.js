@@ -14,8 +14,7 @@
     horizontalScrolling: false,
     hideDistantElements: false,
     scrollProperty: 'scroll'
-  });
-
+  	});
 
 	var fullHeight = function() {
 
@@ -62,7 +61,37 @@
 	  	});
 	}
 	assignProjectTitles();
-	
+
+	const creditsHTML = `Copyright &copy; ${new Date().getFullYear()} All rights reserved | Made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>`;
+
+	// Function to fill in copyright credits
+	var fillCredits = function() {
+		const creditElements = document.querySelectorAll('.credits');
+		creditElements.forEach(element => {
+		  element.innerHTML = creditsHTML;
+		});
+	}
+	fillCredits();
+
+	const projectNavbar = `<ul class="navbar-nav nav ml-auto">
+								<li class="nav-item"><a href="../index.html#home-section" class="nav-link"><span>Home</span></a></li>
+								<li class="nav-item"><a href="../index.html#about-section" class="nav-link"><span>About</span></a></li>
+								<li class="nav-item"><a href="../index.html#education-section" class="nav-link"><span>Education</span></a></li>
+								<li class="nav-item"><a href="../index.html#skills-section" class="nav-link"><span>Skills</span></a></li>
+								<!--<li class="nav-item"><a href="../index.html#skills-section" class="nav-link"><span>Skills</span></a></li>-->
+								<li class="nav-item"><a href="../index.html#projects-section" class="nav-link"><span>Projects</span></a></li>
+								<li class="nav-item"><a href="../index.html#achievements-section" class="nav-link"><span>Achievements</span></a></li>
+								<li class="nav-item"><a href="../index.html#contact-section" class="nav-link"><span>Contact</span></a></li>
+							</ul>`;
+
+	// Function to fill in projects navbar
+	var fillProjectNavbar = function() {
+	const navbarElements = document.querySelectorAll('.project-navbar');
+		navbarElements.forEach(element => {
+		  element.innerHTML = projectNavbar;
+		});
+	}
+	fillProjectNavbar();
 
 	// loader
 	var loader = function() {
@@ -77,23 +106,16 @@
 	// Scrollax
    $.Scrollax();
 
-
-
    // Burger Menu
 	var burgerMenu = function() {
 
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
-
 			event.preventDefault();
-
 			if ( $('#ftco-nav').is(':visible') ) {
 				$(this).removeClass('active');
 			} else {
 				$(this).addClass('active');	
-			}
-
-			
-			
+			}			
 		});
 
 	};
@@ -101,7 +123,6 @@
 
 
 	var onePageClick = function() {
-
 
 		$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
 	    event.preventDefault();
@@ -117,7 +138,6 @@
 		});
 
 	};
-
 	onePageClick();
 	
 
@@ -310,9 +330,4 @@
     fixedContentPos: false
   });
 
-
-
-
-
 })(jQuery);
-
