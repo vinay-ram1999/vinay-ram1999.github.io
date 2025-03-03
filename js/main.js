@@ -55,34 +55,34 @@
 			src: "project10.html",
 			githubRepo: "vinay-ram1999/TradeForecast",
 			reportLink: "https://linktoreport.com/tradeforecast",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["Python", "PyTorch", "Polars", "Transformers"]
 		},
 		9: {
 			title: "Healthcare Analytics",
 			src: "project9.html",
 			githubRepo: "vinay-ram1999/Healthcare-Analytics",
 			reportLink: "https://linktoreport.com/healthcareanalytics",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["MySQL", "Tableau"]
 		},
 		8: {
 			title: "SRDB Analytics",
 			src: "project8.html",
 			githubRepo: "vinay-ram1999/SRDBv5-Analytics",
 			reportLink: "https://linktoreport.com/srdbanalytics",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["MySQL", "Tableau", "R"]
 		},
 		7: {
 			title: "Event-Driven Alerts",
 			src: "project7.html",
 			githubRepo: "vinay-ram1999/user_management",
 			reportLink: "https://linktoreport.com/eventdrivenalerts",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["Python", "Celery", "Apache Kafka", "PostgreSQL"]
 		},
 		6: {
 			title: "UniversityRankings",
 			src: "project6.html",
 			reportLink: "https://linktoreport.com/universityrankings",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["Tableau", "Excel"]
 		},
 		5: {
 			title: "SolarFlareNet xAI",
@@ -90,28 +90,28 @@
 			githubRepo: "vinay-ram1999/SolarFlareNet",
 			paperLink: "https://linktopublication.com/solarflarenetxai", // Example placeholder link
 			reportLink: "https://linktoreport.com/solarflarenetxai",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["Python", "Tensorflow", "LIME", "SHAP", "ALE"]
 		},
 		4: {
 			title: "AlgoTrade-API",
 			src: "project4.html",
 			githubRepo: "vinay-ram1999/AlgoTrade-API",
 			reportLink: "https://linktoreport.com/algotradeapi",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["Python", "Tensorflow", "yFinance"]
 		},
 		3: {
 			title: "eStore DB Design",
 			src: "project3.html",
 			githubRepo: "vinay-ram1999/CS631-DMSD",
 			reportLink: "https://linktoreport.com/estoredbdesign",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["Python", "MySQL", "Streamlit"]
 		},
 		2: {
 			title: "WebScrapping-R",
 			src: "project2.html",
 			githubRepo: "vinay-ram1999/WebScraping-R",
 			reportLink: "https://linktoreport.com/webscrappingr",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["R", "rvest", "ggplot"]
 		},
 		1: {
 			title: "UnstructuredFVM",
@@ -119,7 +119,7 @@
 			githubRepo: "UnstructuredFVM",
 			paperLink: "https://linktopublication.com/unstructuredfvm", // Example placeholder link
 			reportLink: "https://linktoreport.com/unstructuredfvm",
-			techStack: ["Python", "SQL", "PyTorch", "Tableau"]
+			techStack: ["Python", "OP2", "OpenMP", "CUDA", "C"]
 		}
 	};
 
