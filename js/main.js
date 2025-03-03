@@ -36,12 +36,8 @@
 	};
 	partialHeight();
 
-	// -------------------------------------------
-    // Dynamic Projects Loading Function
-    // -------------------------------------------
-    document.addEventListener("DOMContentLoaded", function () {
-        console.log("DOM fully loaded. Attempting to load projects.json...");
-        fetch("../projects.json")
+	var loadProjectContents = function() {
+		fetch("../projects.json")
           .then(response => {
             console.log("Fetch response:", response);
             if (!response.ok) {
@@ -60,96 +56,150 @@
             projects.sort((a, b) => b.number - a.number);
             // Get the container element
             const container = document.getElementById("projects-container");
-            if (!container) {
-                console.error("projects-container not found in DOM");
-                return;
+            if (container) {
+				// Group projects into sets of 3 and create a row for each set
+				for (let i = 0; i < projects.length; i += 3) {
+					const group = projects.slice(i, i + 3);
+					const rowDiv = document.createElement("div");
+					rowDiv.className = "row d-flex";
+					group.forEach(project => {
+						// Column div
+						const colDiv = document.createElement("div");
+						colDiv.className = "col-md-4 d-flex ftco-animate fadeInUp ftco-animated";
+						// Blog entry
+						const blogEntryDiv = document.createElement("div");
+						blogEntryDiv.className = "blog-entry justify-content-end";
+						// Project source anchor (image)
+						const projectSrcA = document.createElement("a");
+						projectSrcA.className = "block-20 project-src";
+						projectSrcA.setAttribute("project-number", project.number);
+						projectSrcA.href = project.src;
+						projectSrcA.style.backgroundImage = "url('images/" + project.image + "')";
+						// Text container
+						const textDiv = document.createElement("div");
+						textDiv.className = "text mt-3 float-right d-block";
+						// Meta div (date and GitHub)
+						const metaDiv = document.createElement("div");
+						metaDiv.className = "d-flex align-items-center mb-2 meta";
+						const pMeta = document.createElement("p");
+						pMeta.className = "mb-0";
+						const githubRepo = project.githubRepo
+						const githubOrg = project.githubOrg
+						const githubAnchor = document.createElement("a");
+						githubAnchor.className = "meta-chat github-repo";
+						githubAnchor.setAttribute("project-number", project.number);
+						if (githubRepo) {
+							githubAnchor.href = `https://github.com/${githubRepo}`;
+							githubAnchor.target = '_blank';
+							githubAnchor.rel = 'noopener noreferrer';
+							githubAnchor.innerHTML = `<img class="github-stars" src="https://img.shields.io/github/stars/${githubRepo}"> <img class="github-forks" src="https://img.shields.io/github/forks/${githubRepo}">`;
+							pMeta.appendChild(githubAnchor);
+						} else if (githubOrg) {
+							githubAnchor.href = `https://github.com/${githubOrg}`;
+							githubAnchor.target = '_blank';
+							githubAnchor.rel = 'noopener noreferrer';
+							githubAnchor.innerHTML = `<img class="github-followers" src="https://img.shields.io/github/followers/${githubOrg}">`;
+							pMeta.appendChild(githubAnchor);
+						}
+						metaDiv.appendChild(pMeta);
+						// Heading for title
+						const h3 = document.createElement("h3");
+						h3.className = "heading";
+						const titleAnchor = document.createElement("a");
+						titleAnchor.className = "project-title project-src";
+						titleAnchor.setAttribute("project-number", project.number);
+						titleAnchor.href = project.src;
+						titleAnchor.textContent = project.title;
+						h3.appendChild(titleAnchor);
+						// Description
+						const pDesc = document.createElement("p");
+						pDesc.textContent = project.description || "";
+						// Tech stack container
+						const techStackDiv = document.createElement("div");
+						techStackDiv.className = "tagcloud project-stack-main";
+						techStackDiv.setAttribute("project-number", project.number);
+						if (project.techStack && project.techStack.length > 0) {
+							project.techStack.forEach(tech => {
+								const techTag = document.createElement("a");
+								techTag.className = "tag-cloud-link";
+								techTag.textContent = tech;
+								techStackDiv.appendChild(techTag);
+							});
+						}
+						// Assemble text container
+						textDiv.appendChild(h3);
+						textDiv.appendChild(metaDiv);
+						textDiv.appendChild(pDesc);
+						textDiv.appendChild(techStackDiv);
+						// Assemble blog entry
+						blogEntryDiv.appendChild(projectSrcA);
+						blogEntryDiv.appendChild(textDiv);
+						// Append blog entry to column, and column to row
+						colDiv.appendChild(blogEntryDiv);
+						rowDiv.appendChild(colDiv);
+					});
+					container.appendChild(rowDiv);
+				}
             }
-            // Group projects into sets of 3 and create a row for each set
-            for (let i = 0; i < projects.length; i += 3) {
-                const group = projects.slice(i, i + 3);
-                const rowDiv = document.createElement("div");
-                rowDiv.className = "row d-flex";
-                group.forEach(project => {
-                    // Column div
-                    const colDiv = document.createElement("div");
-                    colDiv.className = "col-md-4 d-flex ftco-animate fadeInUp ftco-animated";
-                    // Blog entry
-                    const blogEntryDiv = document.createElement("div");
-                    blogEntryDiv.className = "blog-entry justify-content-end";
-                    // Project source anchor (image)
-                    const projectSrcA = document.createElement("a");
-                    projectSrcA.className = "block-20 project-src";
-                    projectSrcA.setAttribute("project-number", project.number);
-                    projectSrcA.href = project.src;
-                    projectSrcA.style.backgroundImage = "url('images/" + project.image + "')";
-                    // Text container
-                    const textDiv = document.createElement("div");
-                    textDiv.className = "text mt-3 float-right d-block";
-                    // Meta div (date and GitHub)
-                    const metaDiv = document.createElement("div");
-                    metaDiv.className = "d-flex align-items-center mb-2 meta";
-                    const pMeta = document.createElement("p");
-                    pMeta.className = "mb-0";
-					const githubRepo = project.githubRepo
-					const githubOrg = project.githubOrg
-					const githubAnchor = document.createElement("a");
-					githubAnchor.className = "meta-chat github-repo";
-					githubAnchor.setAttribute("project-number", project.number);
-					if (githubRepo) {
-						githubAnchor.href = `https://github.com/${githubRepo}`;
-						githubAnchor.target = '_blank';
-						githubAnchor.rel = 'noopener noreferrer';
-						githubAnchor.innerHTML = `<img class="github-stars" src="https://img.shields.io/github/stars/${githubRepo}"> <img class="github-forks" src="https://img.shields.io/github/forks/${githubRepo}">`;
-						pMeta.appendChild(githubAnchor);
-					} else if (githubOrg) {
-						githubAnchor.href = `https://github.com/${githubOrg}`;
-						githubAnchor.target = '_blank';
-						githubAnchor.rel = 'noopener noreferrer';
-						githubAnchor.innerHTML = `<img class="github-followers" src="https://img.shields.io/github/followers/${githubOrg}">`;
-						pMeta.appendChild(githubAnchor);
-					}
-                    metaDiv.appendChild(pMeta);
-                    // Heading for title
-                    const h3 = document.createElement("h3");
-                    h3.className = "heading";
-                    const titleAnchor = document.createElement("a");
-                    titleAnchor.className = "project-title project-src";
-                    titleAnchor.setAttribute("project-number", project.number);
-                    titleAnchor.href = project.src;
-                    titleAnchor.textContent = project.title;
-                    h3.appendChild(titleAnchor);
-                    // Description
-                    const pDesc = document.createElement("p");
-                    pDesc.textContent = project.description || "";
-                    // Tech stack container
-                    const techStackDiv = document.createElement("div");
-                    techStackDiv.className = "tagcloud project-stack";
-                    techStackDiv.setAttribute("project-number", project.number);
-                    if (project.techStack && project.techStack.length > 0) {
-                        project.techStack.forEach(tech => {
-                            const techTag = document.createElement("a");
-                            techTag.className = "tag-cloud-link";
-                            techTag.textContent = tech;
-                            techStackDiv.appendChild(techTag);
-                        });
-                    }
-                    // Assemble text container
-                    textDiv.appendChild(h3);
-                    textDiv.appendChild(metaDiv);
-                    textDiv.appendChild(pDesc);
-                    textDiv.appendChild(techStackDiv);
-                    // Assemble blog entry
-                    blogEntryDiv.appendChild(projectSrcA);
-                    blogEntryDiv.appendChild(textDiv);
-                    // Append blog entry to column, and column to row
-                    colDiv.appendChild(blogEntryDiv);
-                    rowDiv.appendChild(colDiv);
-                });
-                container.appendChild(rowDiv);
-            }
+			// Load project info to individual project pages
+			// Add titles
+			const projectElements = document.querySelectorAll('.project-title');
+			projectElements.forEach(element => {
+				const projectNumber = element.getAttribute('project-number');
+				const projectData = projects.find(project => project.number == projectNumber);
+				if (projectData) {
+					element.innerText = projectData.title; // Set the project title
+				} else {
+					console.error(`Project with number ${projectNumber} not found`);
+				}
+			});
+			// Add tech stack
+			const stackElements = document.querySelectorAll('.project-stack');
+			stackElements.forEach(element => {
+				const projectNumber = element.getAttribute('project-number');
+				const projectData = projects.find(project => project.number == projectNumber);
+				const techStack = projectData.techStack;
+				if (techStack) {
+					techStack.forEach(tech => {
+					const techTag = document.createElement('a');
+					techTag.className = 'tag-cloud-link';
+					techTag.innerText = tech;
+					element.appendChild(techTag);
+				});
+				}
+			});
+			// Add resources
+			const sidebarSocialElements = document.querySelectorAll('.project-sidebar-links');
+			sidebarSocialElements.forEach(element => {
+				const projectNumber = element.getAttribute('project-number');
+				const projectData = projects.find(project => project.number == projectNumber);
+				const githubLink = element.querySelector('.github-link');
+				const reportLink = element.querySelector('.report-link');
+				const paperLink = element.querySelector('.paper-link');
+				if (githubLink && projectData.githubRepo) {
+					githubLink.href = `https://github.com/${projectData.githubRepo}`;
+					githubLink.target = '_blank';
+					githubLink.rel = 'noopener noreferrer';
+					githubLink.innerHTML = '<span class="icon-github"></span>GitHub Repository';
+				}
+				if (reportLink && projectData.reportLink) {
+					reportLink.href = projectData.reportLink;
+					reportLink.target = '_blank';
+					reportLink.rel = 'noopener noreferrer';
+					reportLink.innerHTML = '<span class="fa fa-file-pdf-o" aria-hidden="true"></span>Project Report';
+				}
+				if (paperLink && projectData.paperLink) {
+					paperLink.href = projectData.paperLink;
+					paperLink.target = '_blank';
+					paperLink.rel = 'noopener noreferrer';
+					paperLink.innerHTML = '<span class="fas fa-file-alt"></span>Publication';
+				}
+			});
+			console.log("Succesfully loaded project info!")			
           })
           .catch(error => console.error("Error loading projects.json:", error));
-    });
+	}
+	loadProjectContents();
 
 	const creditsHTML = `Copyright &copy; ${new Date().getFullYear()} All rights reserved | Made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>`;
 
