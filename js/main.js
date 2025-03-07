@@ -73,7 +73,11 @@
 						const projectSrcA = document.createElement("a");
 						projectSrcA.className = "block-20 project-src";
 						projectSrcA.setAttribute("project-number", project.number);
-						projectSrcA.href = project.src;
+						if (project.src) {
+							projectSrcA.href = project.src;
+							projectSrcA.target = '_blank';
+							projectSrcA.rel = 'noopener noreferrer';
+						}
 						projectSrcA.style.backgroundImage = "url('images/" + project.image + "')";
 						// Text container
 						const textDiv = document.createElement("div");
@@ -108,7 +112,11 @@
 						const titleAnchor = document.createElement("a");
 						titleAnchor.className = "project-title project-src";
 						titleAnchor.setAttribute("project-number", project.number);
-						titleAnchor.href = project.src;
+						if (project.src) {
+							titleAnchor.href = project.src;
+							titleAnchor.target = '_blank';
+							titleAnchor.rel = 'noopener noreferrer';
+						}
 						titleAnchor.textContent = project.title;
 						h3.appendChild(titleAnchor);
 						// Description

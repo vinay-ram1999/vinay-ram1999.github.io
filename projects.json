@@ -3,7 +3,6 @@
       {
         "number": 10,
         "title": "TradeForecast",
-        "src": "project10.html",
         "image":"image_10.jpg",
         "githubRepo": "vinay-ram1999/TradeForecast",
         "reportLink": "https://linktoreport.com/tradeforecast",
@@ -12,28 +11,26 @@
       },
       {
         "number": 9,
-        "title": "Healthcare Analytics",
-        "src": "project9.html",
-        "image":"image_9.png",
-        "githubRepo": "vinay-ram1999/Healthcare-Analytics",
-        "reportLink": "https://linktoreport.com/healthcareanalytics",
-        "techStack": ["MySQL", "Tableau"],
-        "description": "Exploratory data analysis on Cardiovascular diseases (CVD) data using MySQL & Tableau."
+        "title": "SolarFlareNet xAI",
+        "image":"image_5.webp",
+        "githubRepo": "vinay-ram1999/SolarFlareNet",
+        "paperLink": "https://linktopublication.com/solarflarenetxai",
+        "reportLink": "https://linktoreport.com/solarflarenetxai",
+        "techStack": ["Python", "Tensorflow", "LIME", "SHAP", "ALE"],
+        "description": "Deep learning framework for predicting solar flares using transformer model incorporated with Explainable AI (xAI) tools."
       },
       {
         "number": 8,
-        "title": "SRDB Analytics",
-        "src": "project8.html",
-        "image":"image_8.jpeg",
-        "githubRepo": "vinay-ram1999/SRDBv5-Analytics",
-        "reportLink": "https://linktoreport.com/srdbanalytics",
-        "techStack": ["MySQL", "Tableau", "R"],
-        "description": "Exploratory data analysis on global soil respiration data using R, MySQL & Tableau."
+        "title": "AlgoTrade-API",
+        "image":"image_4.jpg",
+        "githubRepo": "vinay-ram1999/AlgoTrade-API",
+        "reportLink": "https://linktoreport.com/algotradeapi",
+        "techStack": ["Python", "Tensorflow", "yFinance"],
+        "description": "Fully automated NSE Stock/Equity trading-bot for Kotak Securities API with integrated back testing and ML algorithms."
       },
       {
         "number": 7,
         "title": "Event-Driven Alerts",
-        "src": "project7.html",
         "image":"image_7.jpeg",
         "githubRepo": "vinay-ram1999/user_management",
         "reportLink": "https://linktoreport.com/eventdrivenalerts",
@@ -43,7 +40,6 @@
       {
         "number": 6,
         "title": "UniversityRankings",
-        "src": "project6.html",
         "image":"image_6.png",
         "reportLink": "https://linktoreport.com/universityrankings",
         "techStack": ["Tableau", "Excel"],
@@ -51,29 +47,17 @@
       },
       {
         "number": 5,
-        "title": "SolarFlareNet xAI",
-        "src": "project5.html",
-        "image":"image_5.webp",
-        "githubRepo": "vinay-ram1999/SolarFlareNet",
-        "paperLink": "https://linktopublication.com/solarflarenetxai",
-        "reportLink": "https://linktoreport.com/solarflarenetxai",
-        "techStack": ["Python", "Tensorflow", "LIME", "SHAP", "ALE"],
-        "description": "Deep learning framework for predicting solar flares using transformer model incorporated with Explainable AI (xAI) tools."
+        "title": "SRDB Analytics",
+        "src": "https://vinaygazula.dev/SRDBv5-Analytics/",
+        "image":"image_8.jpeg",
+        "githubRepo": "vinay-ram1999/SRDBv5-Analytics",
+        "reportLink": "https://linktoreport.com/srdbanalytics",
+        "techStack": ["MySQL", "Tableau", "R"],
+        "description": "Exploratory data analysis on global soil respiration data using R, MySQL & Tableau."
       },
       {
         "number": 4,
-        "title": "AlgoTrade-API",
-        "src": "project4.html",
-        "image":"image_4.jpg",
-        "githubRepo": "vinay-ram1999/AlgoTrade-API",
-        "reportLink": "https://linktoreport.com/algotradeapi",
-        "techStack": ["Python", "Tensorflow", "yFinance"],
-        "description": "Fully automated NSE Stock/Equity trading-bot for Kotak Securities API with integrated back testing and ML algorithms."
-      },
-      {
-        "number": 3,
         "title": "eStore DB Design",
-        "src": "project3.html",
         "image":"image_3.png",
         "githubRepo": "vinay-ram1999/CS631-DMSD",
         "reportLink": "https://linktoreport.com/estoredbdesign",
@@ -81,9 +65,8 @@
         "description": "Design and implementation of a relational database system for an online store."
       },
       {
-        "number": 2,
+        "number": 3,
         "title": "WebScrapping-R",
-        "src": "project2.html",
         "image":"image_2.jpg",
         "githubRepo": "vinay-ram1999/WebScraping-R",
         "reportLink": "https://linktoreport.com/webscrappingr",
@@ -91,9 +74,18 @@
         "description": "A web-scrapping tool built using R to collect published articles data and perform exploratory data analysis."
       },
       {
+        "number": 2,
+        "title": "Healthcare Analytics",
+        "image":"image_9.png",
+        "githubRepo": "vinay-ram1999/Healthcare-Analytics",
+        "reportLink": "https://linktoreport.com/healthcareanalytics",
+        "techStack": ["MySQL", "Tableau"],
+        "description": "Exploratory data analysis on Cardiovascular diseases (CVD) data using MySQL & Tableau."
+      },
+      {
         "number": 1,
         "title": "UnstructuredFVM",
-        "src": "project1.html",
+        "src": "https://ufvm-documentation.readthedocs.io/en/latest/",
         "image":"image_1.jpg",
         "githubOrg": "UnstructuredFVM",
         "paperLink": "https://linktopublication.com/unstructuredfvm",
