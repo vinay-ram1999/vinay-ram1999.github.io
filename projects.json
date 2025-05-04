@@ -1,6 +1,16 @@
 {
     "projects": [
       {
+        "number": 11,
+        "title": "Data Engineer Playground",
+        "src": "https://vinaygazula.dev/data-engineer-playground/",
+        "image":"image_11.png",
+        "githubRepo": "vinay-ram1999/data-engineer-playground",
+        "reportLink": "https://linktoreport.com/dataengineerplayground",
+        "techStack": ["Docker", "MinIO", "PostgreSQL", "Apache Spark", "Trino", "Project Nessie", "Unity Catalog", "Apache Airflow"],
+        "description": "A Docker-based environment for exploring core data engineering tools and open table formats."
+      },
+      {
         "number": 10,
         "title": "TradeForecast",
         "image":"image_10.jpg",
@@ -40,6 +50,7 @@
       {
         "number": 6,
         "title": "UniversityRankings",
+        "src": "https://public.tableau.com/views/UniversityRanking_17336163911970/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
         "image":"image_6.png",
         "reportLink": "https://linktoreport.com/universityrankings",
         "techStack": ["Tableau", "Excel"],
