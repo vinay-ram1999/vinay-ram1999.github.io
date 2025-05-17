@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Files</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../images/code-solid.svg" type="image/svg+xml">
+        <style>
+            body { font-family: sans-serif; padding: 1em; }
+            table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+            th, td { padding: 0.5em; border: 1px solid #ddd; }
+            th { text-align: left; background: #f4f4f4; }
+            a { color: #0366d6; text-decoration: none; }
+            a:hover { text-decoration: underline; }
+        </style>
+    </head>
+    <body>
+        <h1>Files in “./files/”</h1>
+        <table id="files-table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Last Modified</th>
+                <th>Download</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <script>
+            (async function() {
+            const owner = 'vinay-ram1999';
+            const repo  = 'vinay-ram1999.github.io';
+            const path  = 'files';
+            const publicBase = `https://${repo}/${path}/`;
+
+            let items;
+            try {
+                const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`);
+                items = await res.json();
+            } catch (e) {
+                console.error('Failed to list directory:', e);
+                document.body.insertAdjacentHTML('beforeend',
+                '<p style="color:red">Failed to load file list.</p>');
+                return;
+            }
+            items = items.filter(i => i.type === 'file');
+
+            const filePromises = items.map(async item => {
+                let commitDate = null;
+                try {
+                const commitsRes = await fetch(
+                    `https://api.github.com/repos/${owner}/${repo}/commits?path=${path}/${encodeURIComponent(item.name)}&per_page=1`
+                );
+                const commits = await commitsRes.json();
+                commitDate = commits[0]?.commit?.author?.date || null;
+                } catch (e) {
+                console.error('Failed to fetch commits for', item.name, e);
+                }
+                return {
+                name: item.name,
+                size: item.size,
+                publicUrl: publicBase + encodeURIComponent(item.name),
+                downloadUrl: item.download_url,
+                date: commitDate ? new Date(commitDate) : new Date(0)
+                };
+            });
+
+            const files = await Promise.all(filePromises);
+
+            files.sort((a,b) => b.date - a.date);
+
+            const tbody = document.querySelector('#files-table tbody');
+            files.forEach(f => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                <td>
+                    <a href="${f.publicUrl}" target="_blank">${f.name}</a>
+                </td>
+                <td>${(f.size/1024).toFixed(1)} KB</td>
+                <td>${ f.date.getFullYear()===1970 ? '—' : f.date.toLocaleString() }</td>
+                <td>
+                    <a href="${f.downloadUrl}" download>Download</a>
+                </td>
+                `;
+                tbody.appendChild(tr);
+            });
+            })();
+        </script>
+    </body>
+</html>
