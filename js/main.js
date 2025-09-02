@@ -119,6 +119,17 @@
 						}
 						titleAnchor.textContent = project.title;
 						h3.appendChild(titleAnchor);
+						if (project.src) {
+							const extIconA = document.createElement('a');
+							extIconA.href = project.src;
+							extIconA.target = '_blank';
+							extIconA.rel = 'noopener noreferrer';
+							const extIcon = document.createElement('i');
+							extIcon.className = 'fa-solid fa-arrow-up-right-from-square';
+							extIcon.style.marginLeft = '6px';
+							extIconA.appendChild(extIcon);
+							h3.appendChild(extIconA);
+						}
 						// Description
 						const pDesc = document.createElement("p");
 						pDesc.textContent = project.description || "";
