@@ -232,14 +232,14 @@
 	fillCredits();
 
 	const projectNavbar = `<ul class="navbar-nav nav ml-auto">
-								<li class="nav-item"><a href="../index.html#home-section" class="nav-link"><span>Home</span></a></li>
-								<li class="nav-item"><a href="../index.html#about-section" class="nav-link"><span>About</span></a></li>
-								<li class="nav-item"><a href="../index.html#education-section" class="nav-link"><span>Education</span></a></li>
-								<li class="nav-item"><a href="../index.html#skills-section" class="nav-link"><span>Skills</span></a></li>
-								<!--<li class="nav-item"><a href="../index.html#skills-section" class="nav-link"><span>Skills</span></a></li>-->
-								<li class="nav-item"><a href="../index.html#projects-section" class="nav-link"><span>Projects</span></a></li>
-								<li class="nav-item"><a href="../index.html#achievements-section" class="nav-link"><span>Achievements</span></a></li>
-								<li class="nav-item"><a href="../index.html#contact-section" class="nav-link"><span>Contact</span></a></li>
+								<li class="nav-item"><a href="../#home-section" class="nav-link"><span>Home</span></a></li>
+								<li class="nav-item"><a href="../#about-section" class="nav-link"><span>About</span></a></li>
+								<li class="nav-item"><a href="../#education-section" class="nav-link"><span>Education</span></a></li>
+								<li class="nav-item"><a href="../#skills-section" class="nav-link"><span>Skills</span></a></li>
+								<!--<li class="nav-item"><a href="../#skills-section" class="nav-link"><span>Skills</span></a></li>-->
+								<li class="nav-item"><a href="../#projects-section" class="nav-link"><span>Projects</span></a></li>
+								<li class="nav-item"><a href="../#achievements-section" class="nav-link"><span>Achievements</span></a></li>
+								<li class="nav-item"><a href="../#contact-section" class="nav-link"><span>Contact</span></a></li>
 							</ul>`;
 
 	// Function to fill in projects navbar
