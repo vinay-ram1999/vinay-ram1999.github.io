@@ -1,6 +1,14 @@
 {
     "projects": [
       {
+        "number": 12,
+        "title": "AgenticLakehouse",
+        "image":"image_12.png",
+        "githubRepo": "vinay-ram1999/AgenticLakehouse",
+        "techStack": ["LangGraph", "Databricks", "Supabase", "RAG", "SQL Agents", "Gradio", "LangSmith"],
+        "description": "An agentic application built using LangGraph designed to interact with your Databricks Workspace and perform SparkSQL queries and RAG."
+      },
+      {
         "number": 11,
         "title": "Data Engineer Playground",
         "src": "https://vinaygazula.dev/data-engineer-playground/",
